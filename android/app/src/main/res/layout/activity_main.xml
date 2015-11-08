@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+   	android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/devices"
+        style="@android:style/TextAppearance.DeviceDefault.Large" />
+    
+    
+    <ListView 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/devices">
+        
+    </ListView>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:id="@+id/btn0"
+                android:textOff="1"
+                android:textOn="1"
+                android:checked="false"
+                android:onClick="toggleClickHandler" />
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="New ToggleButton"
+                android:id="@+id/btn1"
+                android:layout_weight="1"
+                android:textOff="2"
+                android:textOn="2"
+                android:onClick="toggleClickHandler" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New ToggleButton"
+                android:id="@+id/btn2"
+                android:textOff="3"
+                android:textOn="3"
+                android:onClick="toggleClickHandler" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New ToggleButton"
+                android:id="@+id/btn3"
+                android:textOn="4"
+                android:textOff="4"
+                android:onClick="toggleClickHandler" />
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="New ToggleButton"
+                android:id="@+id/btn4"
+                android:layout_weight="1"
+                android:textOff="5"
+                android:textOn="5"
+                android:onClick="toggleClickHandler" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:id="@+id/btn5"
+                android:layout_weight="1"
+                android:textOff="6"
+                android:textOn="6"
+                android:onClick="toggleClickHandler" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New ToggleButton"
+                android:id="@+id/btn6"
+                android:textOff="7"
+                android:textOn="7"
+                android:onClick="toggleClickHandler" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New ToggleButton"
+                android:id="@+id/btn7"
+                android:textOff="8"
+                android:textOn="8"
+                android:onClick="toggleClickHandler" />
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="New ToggleButton"
+                android:id="@+id/btn8"
+                android:layout_weight="1"
+                android:textOff="9"
+                android:textOn="9"
+                android:onClick="toggleClickHandler" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New ToggleButton"
+                android:id="@+id/btn9"
+                android:textOff="10"
+                android:textOn="10"
+                android:onClick="toggleClickHandler" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New ToggleButton"
+                android:id="@+id/btnBlink"
+                android:textOff="Blink"
+                android:textOn="Blink"
+                android:onClick="toggleClickHandler" />
+
+            <ToggleButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="New ToggleButton"
+                android:id="@+id/btnKnigthRider"
+                android:layout_weight="1"
+                android:textOff="Knight Rider"
+                android:textOn="Knight Rider"
+                android:onClick="toggleClickHandler" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New ToggleButton"
+                android:id="@+id/btnReset"
+                android:textOff="Reset"
+                android:textOn="Reset"
+                android:onClick="toggleClickHandler" />
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>
