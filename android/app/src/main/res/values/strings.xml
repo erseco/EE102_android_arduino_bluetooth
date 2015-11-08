@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ArduinoBluetooth</string>
+    <string name="devices">Paired Devices</string>
+    <string name="connected">Connected</string>
+    <string name="error">Connection error</string>
+    <string name="first_connect">First you must connect BT</string>
+</resources>
