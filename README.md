@@ -5,4 +5,6 @@ This project is a sample demostration of how can we connect Arduino and Android 
 
 In this sample we are using a **HC-05** bluetooth module detected by arduino as _serial device_
 
-# Some parts are based in: https://github.com/MiguelAngelLV/android-arduino-bluetooth-ejemplo
+----------
+
+Some parts are based in: https://github.com/MiguelAngelLV/android-arduino-bluetooth-ejemplo
